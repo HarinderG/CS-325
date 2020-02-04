@@ -25,7 +25,7 @@ def coinAlgo(coins, ammount):
 # The parse function will read from data.txt and write out to change.txt
 def parse():
 	orig_stdout = sys.stdout;		# Used to redirect stdout
-	out = open("change.out", "w");
+	out = open("change.txt", "w");
 	sys.stdout = out;		# Redirect stdout to file 'out'
 	with open("data.txt") as data:	# Read file line by line
 		for line in data:
