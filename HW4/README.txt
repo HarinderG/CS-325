@@ -4,4 +4,4 @@ Make sure data.txt exists in the same directory, and has the default format:
 
 To compile and run hw4p4.py, execute "python3 hw4p4.py"
 - It will write out the results to with change.txt
-- The outputs will be seperated 
+- The outputs will be seperated by -----------
